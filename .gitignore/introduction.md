@@ -25,8 +25,8 @@
 一个优化问题一般可以写成下式：
 $$
 \begin{equation}\begin{split} 
-minimize \quad &f_0(x)&  \\
-subject\quad to \quad &f_i(x)& <= b_i,  i =1,...,m 
+minimize \quad f_0(x)\\
+subject\quad to \quad f_i(x)\\ b_i,  i =1,...,m 
 \end{split}
 \end{equation}
 $$
@@ -62,7 +62,7 @@ $$
 
 假设$f$可微，则函数$f$是凸函数的充要条件是**dom** $f$是凸集，且有下式成立：
 $$
-f(y) \geqslant f(x) + f'(x)(y-x)
+f(y) \ge f(x) + f'(x)(y-x)
 \tag{1}
 $$
 感性认识:
