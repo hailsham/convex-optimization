@@ -24,10 +24,10 @@
 
 一个优化问题一般可以写成下式：
 $$
-\begin{eqnarray*}
+\begin{equation}\begin{split} 
 minimize \quad &f_0(x)&  \\
 subject\quad to \quad &f_i(x)& <= b_i,  i =1,...,m
-\end{eqnarray*}
+end{split}\end{equation}
 $$
 
 $f_0(x)$会有各种各样的形式，当$f_0(x)$是一个凸函数的时候，就把这类问题称作是凸优化问题。**在凸优化的问题中，局部最优值一定是全局最优值**。
