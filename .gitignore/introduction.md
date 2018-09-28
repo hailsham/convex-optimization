@@ -22,16 +22,12 @@
 
 ### 什么是凸优化
 
-\begin{equation}\begin{split}
-H(Y|X)&=\sum_{x\in X} p(x)H(Y|X)\\
-&=-\sum_{x\in X} p(x)\sum_{y\in Y}p(y|x)\log p(y|x)\\
-&=-\sum_{x\in X} \sum_{y\in Y}p(y,x)\log p(y|x)
-\end{split}\end{equation}
 
 
 一个优化问题一般可以写成下式：
 $$
-\begin{equation}\begin{split} 
+\begin{equation}
+\begin{split} 
 minimize \quad f_0(x)\\
 subject\quad to \quad f_i(x)\\ b_i,  i =1,...,m 
 \end{split}
